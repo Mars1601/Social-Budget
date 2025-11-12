@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#containerHeader {
+  background-color: #363f60;
+  color: rgb(246, 240, 240);
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#headerTitolo {
+  padding-left: 1em;
+}
+#containerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header h3 {
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 350; /* Light */
+}
+
+/*.nav {
+  background-color: #5b9a5b;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}*/
+
+#containerLogin {
+  position: relative;
+  background-color: rgba(251, 251, 251, 0.987);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px; /* Larghezza del contenitore di login */
+  padding: 1em;
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+  z-index: 1000;
+  margin-top: 2em;
+  margin-right: -0.2em;
+}
+
+#username,
+#password {
+  width: 100%;
+  margin-bottom: 0.3em;
+  height: 1.8em;
+}
+
+.form-group label {
+  min-width: 3.5em; /* Larghezza minima per allineare le etichette */
+  margin-right: 10px; /* Spazio tra l'etichetta e l'input */
+  height: 1.8em;
+}
+
+#container1,
+#containerP2 {
+  margin-top: 8em;
+}
+
+.navbar {
+  background-color: #82957e;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.navbar a {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.navbar-nav {
+  flex-wrap: nowrap;
+}
+
+.container1 {
+  border-radius: 0.2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 50em;
+  margin: 0 auto;
+  margin-top: 8em;
+}
+
+.container1 .btn {
+  background-color: #363f60;
+  color: white;
+  cursor: pointer;
+}
+.containerProp .btn,
+#containerLogin .btn {
+  background-color: #363f60;
+  color: white;
+  cursor: pointer;
+  width: 7em;
+}
+
+/* Riduce la larghezza dell'input in em */
+#budget,
+#cost {
+  max-width: 17.5em;
+  margin: 0 auto;
+}
+
+#description {
+  width: 100%;
+  height: 6em;
+  margin: 0 auto;
+}
+
+.containerProp {
+  background-color: rgba(209, 207, 207, 0.164);
+  border-radius: 0.8em;
+  box-shadow: 0 0 5px rgba(38, 38, 38, 0.1);
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.containerProp1 {
+  background-color: rgba(209, 207, 207, 0.164);
+  border-radius: 0.8em;
+  color: rgba(115, 115, 115, 0.745);
+  box-shadow: 0 0 5px rgba(38, 38, 38, 0.1);
+  max-width: 45em;
+  margin: 0 auto;
+}
